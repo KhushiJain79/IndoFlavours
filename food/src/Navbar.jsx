@@ -20,7 +20,7 @@ if(e.key==='Enter'){
   <img src={icon} width="40" height="32" alt="Favicon" />
 </a>
         <ul className="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-          <li><Link to="/" className="nav-link px-2 text-white headstyle active" >IndoFlavaours</Link></li>
+          <li><Link to="/" className="nav-link px-2 text-white headstyle active" >IndoFlavours</Link></li>
           <li><Link to="/" className="nav-link px-2 text-white headstyle" >Home</Link></li>
           <li><Link to="/products" className="nav-link px-2 text-white headstyle">Products</Link></li>
          
