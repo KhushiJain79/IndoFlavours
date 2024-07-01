@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+IT+Moderna:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+/* Product Fonts */
+/* sub heading font */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+/* heading font */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+/* navbar */
+.bg-navbar{
+  border: 9px solid orangered;
+background-color: orangered !important;
+}
+.headstyle{
+  font-size:20px;
+}
+/* Home */
+.con{
+  height:524px;
+}
+.addon{
+width: 50%;
+  display:flex;
+justify-content: space-between;
+  flex-wrap: wrap;
+}
+.home-bg{
+background-image: url('https://acdn.mitiendanube.com/stores/335/332/products/papel-de-parede-quadriculado-cinza-com-fundo-marfim-min1-bee2d28e69fc738c4316238720194960-640-0.jpg');
+width: 98%;
+height:75rem;
+}
+
+@media  only screen and (max-width:1217px){
+  .home-bg{
+    background-image: url('https://acdn.mitiendanube.com/stores/335/332/products/papel-de-parede-quadriculado-cinza-com-fundo-marfim-min1-bee2d28e69fc738c4316238720194960-640-0.jpg');
+    width: 98%;
+    height:84rem; 
+  }
+  
+.addon{
+width:100%;
+display:flex;
+
+  flex-wrap: wrap;
+}
+}
+@media screen and(max-width:600px){
+  .home-bg{
+    background-image: url('https://acdn.mitiendanube.com/stores/335/332/products/papel-de-parede-quadriculado-cinza-com-fundo-marfim-min1-bee2d28e69fc738c4316238720194960-640-0.jpg');
+    width: 98%;
+    height:90rem; 
+  }
+}
+.home-image{
+  float:right;
+  height: 524px;
+  width: 596px;
+}
+.home-heading{
+  color: orange;
+  font-family: "Playwrite IT Moderna", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  position:relative;
+  top:30vh;
+  left:30px;
+}
+.home-btn{
+  border:2px solid orange;
+  border-radius: 10px;
+  padding: 10px 10px;
+  background-color: orange;
+  position:relative;
+  top:250px;
+left:50px;
+font-size: large;
+}
+.food{
+
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  
+  
+}
+.imagehome{
+  height: 200px;
+  width:200px;
+
+}
+/* product */
+.product-img{
+  display: block;
+  padding: 10px 0px;
+  height:300px;
+  width: 400px;
+margin: 0 auto;
+}
+.product-heading{
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+    text-align: center;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+.putinplate{
+  position: relative;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-fill-mode: forwards;
+  animation-delay: 0.1ms;
+}
+
+@keyframes example{
+  0%   {top: 0px;}
+  100% {top: 210px;}
+}
+.container2{
+  position: relative;
+  animation-name: example1;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  animation-delay: 0.1ms;
+}
+@keyframes example1{
+  0%   {top: 0px;}
+  100% {top: -50px;}
+}
+.product-container{
+  display:flex;
+  justify-content: space-evenly;
+  gap:10px 15px;
+  flex-wrap: wrap;
+}
+.subheading{
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:400;
+  font-style: normal;
+ font-size: 30px;
+  font-variation-settings:
+    "wdth" 50;
+}
+.heading{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:600;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+}
