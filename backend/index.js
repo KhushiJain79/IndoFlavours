@@ -6,7 +6,7 @@ const cors = require('cors');
 const app = express();
 connectDB();
 const port = process.env.PORT || 5000;
-app.use(cors());
+app.use(cors({ origin: 'https://indo-flavours.vercel.app'}));
 
 app.use(express.json());
 
