@@ -8,7 +8,7 @@ function Products() {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch(`http://localhost:5000/api/fetchdata/getfood/`);
+        const response = await fetch(`https://indo-flavours.vercel.app/fetchdata/getfood/`);
         const data = await response.json();
         setMeal(data);
       } catch (error) {

@@ -17,7 +17,7 @@ function FindProduct() {
     //   console.log(query);
       if (query) {
         setLoading(true);
-        fetch(`http://localhost:5000/api/fetchdata/getfood/${query}`)
+        fetch(`https://indo-flavours.vercel.app/api/fetchdata/getfood/${query}`)
           .then(response => response.json())
           .then(data => {
             setData(data);
