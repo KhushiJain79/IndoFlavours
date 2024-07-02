@@ -21,8 +21,9 @@ background-color: orangered !important;
 }
 /* Home */
 .foodcon{
+  width:50%;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   
 }
 .food{
