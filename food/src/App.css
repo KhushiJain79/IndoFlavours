@@ -13,45 +13,31 @@ background-color: orangered !important;
 .headstyle{
   font-size:20px;
 }
-/* Home */
-.con{
-  height:524px;
-}
-.addon{
-width: 50%;
-  display:flex;
-justify-content: space-between;
-  flex-wrap: wrap;
-}
 .home-bg{
-background-image: url('https://acdn.mitiendanube.com/stores/335/332/products/papel-de-parede-quadriculado-cinza-com-fundo-marfim-min1-bee2d28e69fc738c4316238720194960-640-0.jpg');
-width: 98%;
-height:75rem;
+  background-image: url('https://acdn.mitiendanube.com/stores/335/332/products/papel-de-parede-quadriculado-cinza-com-fundo-marfim-min1-bee2d28e69fc738c4316238720194960-640-0.jpg');
+  display:flex;
+  flex-direction: column;
+ 
 }
-
-@media  only screen and (max-width:1217px){
-  .home-bg{
-    background-image: url('https://acdn.mitiendanube.com/stores/335/332/products/papel-de-parede-quadriculado-cinza-com-fundo-marfim-min1-bee2d28e69fc738c4316238720194960-640-0.jpg');
-    width: 98%;
-    height:84rem; 
-  }
+/* Home */
+.foodcon{
+  display: flex;
+  flex-direction: column;
   
-.addon{
-width:100%;
-display:flex;
+}
+.food{
+ 
 
-  flex-wrap: wrap;
+ display: flex;
+ flex-direction: row;
+ flex-wrap: wrap;
+ justify-content: space-between;
 }
-}
-@media screen and(max-width:600px){
-  .home-bg{
-    background-image: url('https://acdn.mitiendanube.com/stores/335/332/products/papel-de-parede-quadriculado-cinza-com-fundo-marfim-min1-bee2d28e69fc738c4316238720194960-640-0.jpg');
-    width: 98%;
-    height:90rem; 
-  }
-}
+
+
+
+
 .home-image{
-  float:right;
   height: 524px;
   width: 596px;
 }
@@ -61,28 +47,17 @@ display:flex;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
-  position:relative;
-  top:30vh;
-  left:30px;
+  margin:100px 40px;
+  width: 50%;
 }
 .home-btn{
+  display: block;
+  width:180px;
   border:2px solid orange;
   border-radius: 10px;
   padding: 10px 10px;
   background-color: orange;
-  position:relative;
-  top:250px;
-left:50px;
 font-size: large;
-}
-.food{
-
-  display:flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  
-  
 }
 .imagehome{
   height: 200px;

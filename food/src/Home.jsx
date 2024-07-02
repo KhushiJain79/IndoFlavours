@@ -11,15 +11,16 @@ function Home() {
   return (
     <>
     <div className='home-bg'>
-      <div className='con'>
+      <div className='food'>
+        <div className="foodcon">
+     <h1 className='home-heading'>Search The Recipie of your Favourite meal  </h1>
+     <button className='home-btn mx-5' onClick={handleClick}>Get Started<i className="bi bi-arrow-right"></i></button></div>
      <img className='home-image img-fluid' src="https://img.freepik.com/premium-photo/national-food-india-with-white-background-high-q_889056-6602.jpg" alt="" />
-     <h1 className='home-heading'>Search The Recipie of your Favourite meal </h1>
  
-     <button className='home-btn' onClick={handleClick}>Get Started<i className="bi bi-arrow-right"></i></button>
-     </div>
+          </div>
     <div className="food my-4">
-      <img className="home-image img-fluid addon"  src={dosa} alt="" />
-      <h1 className='home-heading addon'>Join us on a culinary journey where every recipe tells a unique story </h1>
+      <img className="home-image img-fluid"  src={dosa} alt="" />
+      <h1 className='home-heading'>Join us on a culinary journey where every recipe tells a unique story </h1>
     
         </div>
     </div>

@@ -12,10 +12,13 @@ function AboutPage() {
    <div className='about-page'>
 
 <div className="container1">
-  <h1 className='about-head'>We Provide Delicious and Tasty Recipies<h6 className='my-2'>At IndoFlavours, we turn everyday ingredients into extraordinary meals, one recipe at a time.</h6></h1>
+  <div className="flex-container">
+  <h1 className='about-head'>We Provide Delicious and Tasty Recipies<h6 className='my-2'>At IndoFlavours, we turn everyday ingredients into extraordinary meals, one recipe at a time.</h6>
+  <button className='about-btn btn  my-2 center' onClick={handleClick}>Try Now</button></h1>
   
-<img className="about-image" src="https://media.istockphoto.com/id/1190330112/photo/fried-pork-and-vegetables-on-white-background.jpg?s=612x612&w=0&k=20&c=TzvLLGGvPAmxhKJ6fz91UGek-zLNNCh4iq7MVWLnFwo="  alt="" />
-<button className='about-btn' onClick={handleClick}>Try Now</button>
+<img className="about-image img-fluid" src="https://media.istockphoto.com/id/1190330112/photo/fried-pork-and-vegetables-on-white-background.jpg?s=612x612&w=0&k=20&c=TzvLLGGvPAmxhKJ6fz91UGek-zLNNCh4iq7MVWLnFwo="  alt="" />
+</div>
+
 
 </div>
    </div>
