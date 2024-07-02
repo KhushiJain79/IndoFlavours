@@ -60,6 +60,7 @@ background-color: orangered !important;
 font-size: large;
 }
 .imagehome{
+  float:right;
   height: 200px;
   width:200px;
 
