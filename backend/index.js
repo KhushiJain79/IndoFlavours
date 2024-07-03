@@ -7,7 +7,7 @@ const app = express();
 connectDB();
 const port = process.env.PORT || 5000;
 
-app.use(cors({ origin: ['https://indo-flavours.vercel.app']}));
+app.use(cors({ origin: 'https://indo-flavours.vercel.app'}));
 
 app.use(express.json());
 
