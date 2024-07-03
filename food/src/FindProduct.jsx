@@ -14,9 +14,10 @@ function FindProduct() {
   useEffect(() => {
     if (query !== prevquery.current) {
       prevquery.current = query;
-    //   console.log(query);
+      console.log(query);
       if (query) {
         setLoading(true);
+       
         fetch(`https://indoflavours.onrender.com/api/fetchdata/getfood/${query}`)
           .then(response => response.json())
           .then(data => {
