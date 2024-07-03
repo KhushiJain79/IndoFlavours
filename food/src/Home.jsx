@@ -14,7 +14,7 @@ function Home() {
       <div className='food'>
         <div className="foodcon">
      <h1 className='home-heading'>Search The Recipie of your Favourite meal  </h1>
-     <button className='home-btn mx-5' onClick={handleClick}>Get Started<i className="bi bi-arrow-right"></i></button></div>
+     <button className='home-btn mx-5 my-4' onClick={handleClick}>Get Started<i className="bi bi-arrow-right"></i></button></div>
      <img className='home-image img-fluid' src="https://img.freepik.com/premium-photo/national-food-india-with-white-background-high-q_889056-6602.jpg" alt="" />
  
           </div>
