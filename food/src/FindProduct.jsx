@@ -18,7 +18,7 @@ function FindProduct() {
       if (query) {
         setLoading(true);
        
-        fetch(`https://indoflavours.onrender.com/api/fetchdata/getfood/${query}`)
+        fetch(`https://indoflavours.vercel.app/api/fetchdata/getfood/${query}`)
           .then(response => response.json())
           .then(data => {
             setData(data);
