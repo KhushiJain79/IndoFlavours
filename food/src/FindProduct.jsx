@@ -33,13 +33,13 @@ function FindProduct() {
   }, [query]);
 
   if (loading) {
-    return <div>
-      <img className="center" src={Spinner} alt="" />
+    return <div className="spinner">
+      <img  src={Spinner} alt="" />
     </div>;
   }
 
   if (error) {
-    return <div>Error: {error}</div>;
+    return <div>Could Not Load</div>;
   }
 
   return (

@@ -9,30 +9,26 @@
 }
 
 .container1 {
-
+box-sizing: border-box;
   background-color: white;
   border-radius: 30px;
   display: flex;
   flex-direction:column;
-  flex-wrap: wrap;
   justify-content: center;
-  margin: 0 auto; /* Center the container */
-  padding: 20px; /* Add padding to ensure content doesn't touch the edges */
+ padding: 20px;  /* Add padding to ensure content doesn't touch the edges */
   box-sizing: border-box; /* Include padding and border in the element's total width and height */
 }
 .flex-container{
+  margin:20px 20px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
+  
 }
 .about-btn {
 
   border: 2px solid rgb(255, 114, 63);
- 
- width:100px;
-  border-radius: 10px;
-  padding: 10px;
   background-color: rgb(255, 114, 63);
   font-family: "Open Sans", sans-serif;
   text-align: center;
@@ -48,12 +44,17 @@
 
 .about-head {
 
-  width:50%; /* Adjust width to account for padding and margins */
-  padding: 2vw 4vw; /* Use relative units for padding */
+display: flex;
+flex-direction: column;
+justify-content: center;
+row-gap: 4px;
+  width:50%; 
+  font-size:25px;
+  
   font-family: "Open Sans", sans-serif;
   text-align: center;
-  margin: 0 20px 20px 20px; /* Add margin for spacing */
-  box-sizing: border-box; /* Include padding and border in the element's total width and height */
+ 
+  box-sizing: border-box; 
 }
 
 .footer {
@@ -76,14 +77,14 @@
 }
 
 .subhead1 {
-  font-size: 50px;
+  font-size: 40px;
   font-family: "Roboto", sans-serif;
   font-weight: 300;
   padding: 10px;
 }
 
 .paraabout {
-  font-size: 20px;
+  font-size: 15px;
   font-family: "Chocolate Classical Sans", sans-serif;
   font-weight: 400;
   padding: 20px;

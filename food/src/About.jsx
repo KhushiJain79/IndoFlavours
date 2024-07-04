@@ -14,7 +14,7 @@ function AboutPage() {
 <div className="container1">
   <div className="flex-container">
   <h1 className='about-head'>We Provide Delicious and Tasty Recipies<h6 className='my-2'>At IndoFlavours, we turn everyday ingredients into extraordinary meals, one recipe at a time.</h6>
-  <button className='about-btn btn  my-2 center' onClick={handleClick}>Try Now</button></h1>
+  <button className='btn  my-2 center' onClick={handleClick}>Try Now</button></h1>
   
 <img className="about-image img-fluid" src="https://media.istockphoto.com/id/1190330112/photo/fried-pork-and-vegetables-on-white-background.jpg?s=612x612&w=0&k=20&c=TzvLLGGvPAmxhKJ6fz91UGek-zLNNCh4iq7MVWLnFwo="  alt="" />
 </div>
@@ -38,7 +38,7 @@ Our mission is to inspire and empower you to create delicious meals at home. We 
         </ul>
         </p></div>
     <div className="box"><h2 className="subhead1">Our Team</h2>
-<p className="paraabout">Meet the dedicated professionals behind MetersIndia:
+<p className="paraabout">Meet the dedicated professionals behind IndoFlavours:
 <ul>
     <li> Henry Rich - CEO & Co-Founder</li>
     <li>Khushi Jain- Chief Technology Officer</li>
