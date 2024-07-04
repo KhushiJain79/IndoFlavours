@@ -10,11 +10,13 @@ const port = process.env.PORT || 5000;
 app.use(cors({ origin: 'https://indo-flavours.vercel.app'}));
 
 app.use(express.json());
-
+app.use('/',(req, res) => {
+  res.json({ message: 'Hello World!' });
+});
 app.use('/api/fetchdata', require('./routes/fetchdata'));
 
 
 app.listen(port, () => {
-  console.log(`foodVita listening on port http://localhost:${port}`);
+  console.log(`IndoFlavours listening on port http://localhost:${port}`);
 });
 
