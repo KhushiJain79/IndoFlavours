@@ -44,6 +44,7 @@ background-color: orangered !important;
 
 
 .home-heading{
+  text-align: center;
   color:orangered;
   text-shadow: 2px 2px white;
   font-family: "Playwrite IT Moderna", cursive;
