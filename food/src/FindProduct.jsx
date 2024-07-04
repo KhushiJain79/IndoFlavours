@@ -46,7 +46,7 @@ function FindProduct() {
     <div >
       {data && (
         // Render the fetched data here
-        <div className='product-container' >
+        <div className='product-container my-2' >
           {data.map(item => (
             <ProductItem key={item._id} product={item} />
           ))}
